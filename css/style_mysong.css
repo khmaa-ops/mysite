@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+
+body {
+    background-image: url(../images/natsu.png);
+    background-attachment: fixed;
+
+    padding: 100px;
+    linear-gradient: (180deg,
+            #4facfe 0%,
+            #00f2fe 100%);
+    max-width: 100%;
+    height: auto;
+}
+
+.daimei {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: tomato;
+    text-shadow: 10px 10px 20px green;
+    font-size: 40px;
+    color: white;
+    text-shadow:
+        4px 4px 0px #ff9800,
+        8px 8px 15px rgba(0, 0, 0, 0.3);
+    transform: rotate(-2deg);
+
+}
+
+.kasi {
+    font-size: large;
+    color: gold;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kashumei {
+    font-family: "Playwrite AU VIC Guides", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+    color: aqua;
+}
+
+.nendai {
+    text-align: right;
+    color: aqua;
+}
+
+.sabi {
+    font-family: "Dela Gothic One", sans-serif;
+    color: tomato;
+    text-shadow: 3px 3px 3px green;
+
+}
+
+body:hover {
+    background-image: url(../images/aki.png);
+    transition: all 1.3s;
+    transform: scale(0.8) ;
+    max-width: 100%;
+    height: auto;
+}
